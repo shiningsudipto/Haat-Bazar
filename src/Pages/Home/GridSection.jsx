@@ -1,13 +1,13 @@
 
 const GridSection = () => {
     return (
-        <div className="my-5">
+        <div className="container my-5">
             <div className="row g-4">
                 <div className="col-3 ">
                     <div className="p-5 grass">
                         <h3>MY ADS</h3>
                         <div></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis facere, suscipit atque doloribus ab?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur .</p>
                         <button className="viewMore">view more</button>
                     </div>
                 </div>

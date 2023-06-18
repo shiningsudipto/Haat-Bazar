@@ -89,3 +89,11 @@
     background-size: cover;
     height: 280px;
 }
+
+.detailsBanner {
+    height: 450px;
+    background-image: url(../src/assets/camel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

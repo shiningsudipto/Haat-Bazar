@@ -3,24 +3,28 @@
         "name": "camel",
         "price": "$100",
         "description": "Playful and affectionate companion",
-        "image": "../src/assets/camel.png"
+        "image": "../src/assets/camel.png",
+        "id": 1
     },
     {
         "name": "goat",
         "price": "$200",
         "description": "Playful and affectionate companion",
-        "image": "../src/assets/goat.png"
+        "image": "../src/assets/goat.png",
+        "id": 2
     },
     {
         "name": "sheep",
         "price": "$50",
         "description": "Playful and affectionate companion",
-        "image": "../src/assets/sheep.png"
+        "image": "../src/assets/sheep.png",
+        "id": 3
     },
     {
         "name": "cow",
         "price": "$20",
         "description": "Playful and affectionate companion",
-        "image": "../src/assets/cow.png"
+        "image": "../src/assets/cow.png",
+        "id": 4
     }
 ]
