@@ -10,7 +10,7 @@ const MyAds = () => {
         return <div>Loading...</div>;
     }
     return (
-        <div>
+        <div className="container mb-5">
             <div>
                 <SectionTitle
                     heading={"my ads"}

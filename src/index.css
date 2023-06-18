@@ -5,6 +5,18 @@
     border-radius: 10px;
 }
 
+.viewMore {
+    padding: 8px 15px;
+    background-color: #1C02BD;
+    color: #ffff;
+    border: 2px solid #ffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+/* Section Title */
+
 .SectionHeading {
     color: #1C02BD;
     font-size: 54px;
@@ -22,6 +34,7 @@
     margin-bottom: 50px;
 }
 
+/* My Ads */
 .myAddImg {
     width: 280px;
     height: 170px;
@@ -34,6 +47,8 @@
     background-position: center;
     background-size: cover;
 }
+
+/* Grid Section */
 
 .grass {
     background-image: url(../src/assets/grass.png);
@@ -68,14 +83,4 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.viewMore {
-    padding: 8px 15px;
-    background-color: #1C02BD;
-    color: #ffff;
-    border: 2px solid #ffff;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 8px;
 }

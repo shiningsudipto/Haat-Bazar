@@ -8,19 +8,19 @@
     {
         "name": "goat",
         "price": "$200",
-        "description": "Loyal and loving family pet",
+        "description": "Playful and affectionate companion",
         "image": "../src/assets/goat.png"
     },
     {
         "name": "sheep",
         "price": "$50",
-        "description": "Colorful and melodious songbird",
+        "description": "Playful and affectionate companion",
         "image": "../src/assets/sheep.png"
     },
     {
         "name": "cow",
         "price": "$20",
-        "description": "Beautiful aquatic tank dweller",
+        "description": "Playful and affectionate companion",
         "image": "../src/assets/cow.png"
     }
 ]
