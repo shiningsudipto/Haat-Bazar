@@ -1,0 +1,22 @@
+[
+    {
+        "name": "camel",
+        "price": "$100",
+        "description": "Playful and affectionate companion"
+    },
+    {
+        "name": "goat",
+        "price": "$200",
+        "description": "Loyal and loving family pet"
+    },
+    {
+        "name": "sheep",
+        "price": "$50",
+        "description": "Colorful and melodious songbird"
+    },
+    {
+        "name": "cow",
+        "price": "$20",
+        "description": "Beautiful aquatic tank dweller"
+    }
+]

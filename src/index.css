@@ -1,0 +1,59 @@
+.btn {
+    background-color: #1C02BD;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/* banner */
+.banner {
+    background-image: url(../src/assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grass {
+    background-image: url(../src/assets/grass.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.camel {
+    background-image: url(../src/assets/camel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.goat {
+    background-image: url(../src/assets/goat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sheep {
+    background-image: url(../src/assets/sheep.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cow {
+    background-image: url(../src/assets/cow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.viewMore {
+    padding: 8px 15px;
+    background-color: #1C02BD;
+    color: #ffff;
+    border: 2px solid #ffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+}

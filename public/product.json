@@ -1,0 +1,65 @@
+[
+    {
+        "name": "camel",
+        "weight": "500 kg",
+        "price": "$1500",
+        "type": "featured",
+        "image": "https://example.com/camel.jpg"
+    },
+    {
+        "name": "cow",
+        "weight": "800 kg",
+        "price": "$2000",
+        "type": "featured",
+        "image": "https://example.com/cow.jpg"
+    },
+    {
+        "name": "goat",
+        "weight": "50 kg",
+        "price": "$500",
+        "type": "featured",
+        "image": "https://example.com/goat.jpg"
+    },
+    {
+        "name": "sheep",
+        "weight": "60 kg",
+        "price": "$600",
+        "type": "featured",
+        "image": "https://example.com/sheep.jpg"
+    },
+    {
+        "name": "horse",
+        "weight": "900 kg",
+        "price": "$2500",
+        "type": "featured",
+        "image": "https://example.com/horse.jpg"
+    },
+    {
+        "name": "pig",
+        "weight": "200 kg",
+        "price": "$800",
+        "type": "featured",
+        "image": "https://example.com/pig.jpg"
+    },
+    {
+        "name": "rabbit",
+        "weight": "2 kg",
+        "price": "$50",
+        "type": "featured",
+        "image": "https://example.com/rabbit.jpg"
+    },
+    {
+        "name": "chicken",
+        "weight": "1 kg",
+        "price": "$10",
+        "type": "featured",
+        "image": "https://example.com/chicken.jpg"
+    },
+    {
+        "name": "duck",
+        "weight": "2.5 kg",
+        "price": "$20",
+        "type": "featured",
+        "image": "https://example.com/duck.jpg"
+    }
+]
