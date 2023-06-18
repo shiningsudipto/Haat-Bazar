@@ -8,7 +8,7 @@ const useMyAds = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('ads.json');
+                const response = await fetch('/ads.json'); // Fetch from the root of the application
                 if (!response.ok) {
                     throw new Error('Request failed');
                 }

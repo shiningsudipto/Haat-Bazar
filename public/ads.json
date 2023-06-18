@@ -2,29 +2,33 @@
     {
         "name": "camel",
         "price": "$100",
-        "description": "Playful and affectionate companion",
+        "description": "Playful and affectionate companion. Known for their ability to withstand long periods without water and navigate vast deserts.",
         "image": "../src/assets/camel.png",
-        "id": 1
+        "id": 1,
+        "weight": "500 kg"
     },
     {
         "name": "goat",
         "price": "$200",
-        "description": "Playful and affectionate companion",
+        "description": "Active and curious animal. They are excellent climbers and are often found exploring rocky terrains.",
         "image": "../src/assets/goat.png",
-        "id": 2
+        "id": 2,
+        "weight": "30 kg"
     },
     {
         "name": "sheep",
         "price": "$50",
-        "description": "Playful and affectionate companion",
+        "description": "Gentle and docile creature. They are commonly raised for wool and meat production.",
         "image": "../src/assets/sheep.png",
-        "id": 3
+        "id": 3,
+        "weight": "70 kg"
     },
     {
         "name": "cow",
         "price": "$20",
-        "description": "Playful and affectionate companion",
+        "description": "Peaceful and herbivorous mammal. Cows are often domesticated for milk and meat production.",
         "image": "../src/assets/cow.png",
-        "id": 4
+        "id": 4,
+        "weight": "800 kg"
     }
 ]

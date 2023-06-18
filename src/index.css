@@ -5,14 +5,33 @@
     border-radius: 10px;
 }
 
-.viewMore {
-    padding: 8px 15px;
+.shopNow {
     background-color: #1C02BD;
     color: #ffff;
-    border: 2px solid #ffff;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
+    width: 390px;
+    height: 60px;
     border-radius: 8px;
+    border: 0;
+}
+
+.availableBullet {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.availableBtn {
+    height: 35px;
+    color: #13A710;
+}
+
+.shopNowHeart {
+    font-size: 60px;
+    padding: 5px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+    color: rgb(255, 158, 174);
 }
 
 /* Section Title */
