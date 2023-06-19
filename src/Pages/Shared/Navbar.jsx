@@ -15,9 +15,9 @@ const NavMenu = () => {
 
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#features">Home</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Nav.Link to='' >Home</Nav.Link>
+                            <Nav.Link to='/find' > Find </Nav.Link>
+                            <Nav.Link to='' >Pricing</Nav.Link>
                             <Button style={{ backgroundColor: '#1C02BD' }} className='text-white fw-medium'>CONTACT US</Button>
                         </Nav>
                     </Navbar.Collapse>
