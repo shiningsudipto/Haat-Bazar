@@ -26,6 +26,8 @@
     border: 0;
 }
 
+/* card */
+
 .availableBullet {
     font-size: 10px;
     margin-bottom: 2px;
@@ -36,6 +38,8 @@
     color: #13A710;
 }
 
+/* details */
+
 .shopNowHeart {
     font-size: 60px;
     padding: 5px;
@@ -43,6 +47,14 @@
     border-radius: 8px;
     color: rgb(255, 158, 174);
 }
+
+/* .detailsBanner {
+    height: 450px;
+    background-image: url(../src/assets/camel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
 
 /* Section Title */
 
@@ -145,14 +157,7 @@
     height: 280px;
 }
 
-.detailsBanner {
-    height: 450px;
-    background-image: url(../src/assets/camel.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
+/* search */
 .searchBar {
     width: 680px;
     height: 60px;
@@ -205,6 +210,7 @@
     font-size: 23px;
 }
 
-.detailsBannerText {
-    margin-top: 180px;
+/* footer */
+.footerSocialIcon {
+    font-size: 20px;
 }
