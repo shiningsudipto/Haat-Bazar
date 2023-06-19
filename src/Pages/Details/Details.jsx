@@ -12,6 +12,7 @@ import SingleAdd from "../../Components/SingleAdd";
 import { Col, Row } from "react-bootstrap";
 import SectionTitle from "../../Components/SectionTitle";
 import Card from 'react-bootstrap/Card';
+import Slider from "../Shared/Slider";
 const Details = () => {
     const id = useParams();
     const { data, loading } = useMyAds();
@@ -29,15 +30,7 @@ const Details = () => {
     return (
         <div>
             <div>
-                <Card className="bg-dark text-white rounded-0 position-relative">
-                    <Card.Img src={matchingData.image} style={{ height: "500px" }} alt="Card image" />
-                    <Card.ImgOverlay className="flex justify-content-center detailsBannerText">
-                        <Card.Title className="display-2 fw-bold text-uppercase w-50">camel-
-                            lorem ipsum dolor sit</Card.Title>
-                        <Card.Text>
-                        </Card.Text>
-                    </Card.ImgOverlay>
-                </Card>
+                <Slider />
             </div>
             {/* <div className="detailsBanner mb-5 position-relative">
                 <div className="text-white text-uppercase py-5">

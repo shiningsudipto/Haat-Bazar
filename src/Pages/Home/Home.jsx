@@ -2,11 +2,13 @@ import Banner from "./Banner";
 import GridSection from "./GridSection";
 import MyAds from "./MyAds";
 import SearchBar from "./SearchBar";
+import Slider from "../Shared/Slider";
 
 const Home = () => {
     return (
         <div>
-            <Banner />
+            {/* <Banner /> */}
+            <Slider />
             <SearchBar />
             <GridSection />
             <MyAds />
