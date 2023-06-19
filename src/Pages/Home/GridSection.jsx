@@ -1,7 +1,7 @@
 
 const GridSection = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-5 text-white">
             <div className="row g-4">
                 <div className="col-md-3 col-12">
                     <div className="p-5 grass">

@@ -70,7 +70,7 @@
 }
 
 .overlay {
-    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
     z-index: 2000;
@@ -78,8 +78,12 @@
 
 .sliderText {
     color: #fff;
-    margin-top: 220px;
-    margin-left: 100px;
+    padding-top: 220px;
+    padding-left: 100px;
+}
+
+.sliderSubTitle {
+    width: 50%;
 }
 
 /* My Ads */
@@ -104,6 +108,9 @@
     background-position: center;
     background-size: cover;
     height: 280px;
+    box-shadow: inset 0 0 0 2000px #1b02bda8;
+    width: 100%;
+    height: 100%;
 }
 
 .camel {
@@ -152,6 +159,7 @@
     margin-top: -30px;
     background-color: #ffff;
     border-radius: 10px;
+    z-index: 200;
 }
 
 .searchSection {

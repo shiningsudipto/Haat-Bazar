@@ -11,6 +11,7 @@ import { Navigation } from "swiper";
 import img1 from '../../assets/slider/cowBanner.jpg'
 import img2 from '../../assets/slider/goatBanner.jpg'
 import img3 from '../../assets/slider/sheepBanner.webp'
+import { BsGlobe2 } from "react-icons/bs";
 
 const Slider = () => {
     return (
@@ -19,10 +20,10 @@ const Slider = () => {
                 <SwiperSlide className="">
                     <div className="position-relative ">
                         <img src={img1} alt="" className="sliderImg " />
-                        <div className="position-absolute top-0 sliderText ">
+                        <div className="position-absolute top-0 sliderText overlay">
                             <h2 className='display-4 fw-bold'>Welcome To Haat Bazar</h2>
-                            <p className="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aut harum rerum eos iste, exercitationem laboriosam eligendi voluptate minus excepturi quibusdam natus, quo omnis! Incidunt.</p>
-                            <button className='bg-white p-2 border-0 rounded-3 fs-6 fw-medium text-uppercase'>discover now</button>
+                            <p className="sliderSubTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aut harum rerum eos iste, exercitationem laboriosam eligendi voluptate minus excepturi quibusdam natus, quo omnis! Incidunt.</p>
+                            <button className='bg-white p-2 border-0 rounded-3 fs-6 fw-medium text-uppercase'><BsGlobe2 /> discover now</button>
                         </div>
                     </div>
                 </SwiperSlide>
