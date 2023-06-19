@@ -3,7 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import imgCamel from '../../assets/detailsCamel.png'
 import useMyAds from "../../Hooks/useMyAds";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaFlag } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
 import addImage from '../../assets/add1.jpg'
 import addImage2 from '../../assets/add2.jpg'
 const Details = () => {
@@ -33,10 +34,9 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="container">
+            <div className="container my-5">
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-8 card border rounded-3 p-3">
                         <Carousel>
                             <div>
                                 <img src={image} />
@@ -57,9 +57,20 @@ const Details = () => {
                             </div>
                             <button className="shopNow">SHOP NOW</button> <FaRegHeart className="shopNowHeart"></FaRegHeart>
                         </div>
+                        <div className="float-end">
+                            <hr />
+                            <p className="float-end"><FaFlag /> Report this ad</p>
+                        </div>
                     </div>
                     <div className="col-md-4">
-                        <img src={addImage} className="img-fluid shadow-lg rounded-3" alt="" />
+                        <img src={addImage} className="img-fluid shadow rounded-3" alt="" />
+                        <div className="d-flex align-items-center align-content-center bg-white shadow-lg my-4 z-3 rounded-3">
+                            <h4 className="display-5"><IoLocationOutline /></h4>
+                            <div className="ms-5 mt-2">
+                                <h4>LOCATION</h4>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
                         <img src={addImage2} className="img-fluid shadow-lg rounded-3 w-100" alt="" />
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const MyAds = () => {
                     subHeading={"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh."}
                 ></SectionTitle>
             </div>
-            <Row className="g-4">
+            <Row xs={1} md={2} lg={4} className="g-4">
                 {
                     data.map((myAdd, index) =>
                         <Col key={index}>

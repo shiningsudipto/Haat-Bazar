@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className='banner py-5 text-white'>
             <div className='container'>
-                <div className='d-flex align-items-center'>
+                <div className='d-flex flex-md-row flex-column align-items-center'>
                     <div className=''>
                         <div>
                             <h2 className='display-4 fw-bold'>Welcome To Haat Bazar</h2>
