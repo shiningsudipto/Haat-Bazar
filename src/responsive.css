@@ -1,0 +1,28 @@
+/* Mobile */
+@media all and (max-width: 480px) {
+    .bannerImage1 {
+        width: 280px;
+    }
+
+    .searchBar {
+        width: 95%;
+    }
+
+    .SectionHeading {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionSubHeading {
+        width: 90%;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+    }
+
+    .shopNow {
+        width: 100%;
+    }
+}

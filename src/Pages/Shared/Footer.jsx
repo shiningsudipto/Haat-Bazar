@@ -44,16 +44,16 @@ const Footer = () => {
                 <div className="mt-4 mb-3">
                     <hr />
                 </div>
-                <div className="d-flex justify-content-between">
-                    <div>
+                <div className="d-flex justify-content-between footerBottom">
+                    <div className="">
                         <p>Copyright © 2023 Website.All rights reserved.</p>
                     </div>
-                    <div className="d-flex">
-                        <Link className="mx-2 text-decoration-none text-white">Privacy Statement</Link>
-                        <Link className="mx-2 text-decoration-none text-white">Terms & Conditions</Link>
-                        <Link className="mx-2 text-decoration-none text-white">Accessibility Notice</Link>
-                        <Link className="mx-2 text-decoration-none text-white">Disclaimers</Link>
-                        <Link className="mx-2 text-decoration-none text-white">Site Map</Link>
+                    <div className="d-flex flex-wrap">
+                        <Link className="mx-1 text-decoration-none text-white">Privacy Statement</Link>
+                        <Link className="mx-1 text-decoration-none text-white">Terms & Conditions</Link>
+                        <Link className="mx-1 text-decoration-none text-white">Accessibility Notice</Link>
+                        <Link className="mx-1 text-decoration-none text-white">Disclaimers</Link>
+                        <Link className="mx-1 text-decoration-none text-white">Site Map</Link>
                     </div>
                 </div>
             </footer>
