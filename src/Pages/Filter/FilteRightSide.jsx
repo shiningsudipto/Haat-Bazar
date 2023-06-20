@@ -8,11 +8,11 @@ const FilteRightSide = () => {
 return (
 <div >
     {/* Filter top nav option */}
-    <section style={{display:'flex', justifyContent:'space-between'}}>
+    <section className="d-lg-flex d-xl-flex d-xxl-flex  d-none" style={{display:'flex', justifyContent:'space-between'}}>
     <div className="filter-topnav">
         <ul className="p-0">
             <li>
-                <NavLink className={"ms-2 px-5"} to={"/filter/all"}> {" "}
+                <NavLink className={"ms-2 px-5 "} to={"/filter/all"}> {" "}
               ALL{" "}
             </NavLink>{" "}
           </li>

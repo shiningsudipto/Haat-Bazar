@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa";
 
 const SingleAdd = ({ myAdd }) => {
     const { name, price, image, id, weight } = myAdd;
-    console.log("single add", myAdd);
+    // console.log("single add", myAdd);
 
 
     return (
