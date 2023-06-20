@@ -25,8 +25,8 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4 col-12">
                             <h4>Social Media</h4>
-                            <FaFacebook className="" />
-                            <FaLinkedinIn className="mx-3" />
+                            <FaFacebook className="footerSocialIcon" />
+                            <FaLinkedinIn className="mx-3 footerSocialIcon" />
                         </div>
                     </div>
                     <div style={{ marginTop: '66px' }} className="d-flex flex-md-row flex-column justify-content-between bg-white text-black align-items-center p-2">

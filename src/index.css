@@ -26,6 +26,8 @@
     border: 0;
 }
 
+/* card */
+
 .availableBullet {
     font-size: 10px;
     margin-bottom: 2px;
@@ -36,6 +38,8 @@
     color: #13A710;
 }
 
+/* details */
+
 .shopNowHeart {
     font-size: 60px;
     padding: 5px;
@@ -43,6 +47,14 @@
     border-radius: 8px;
     color: rgb(255, 158, 174);
 }
+
+/* .detailsBanner {
+    height: 450px;
+    background-image: url(../src/assets/camel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
 
 /* Section Title */
 
@@ -61,6 +73,29 @@
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
+}
+
+/* slider */
+.sliderImg {
+    width: 100%;
+    height: 640px;
+}
+
+.overlay {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+
+.sliderText {
+    color: #fff;
+    padding-top: 220px;
+    padding-left: 100px;
+}
+
+.sliderSubTitle {
+    width: 50%;
 }
 
 /* My Ads */
@@ -85,6 +120,9 @@
     background-position: center;
     background-size: cover;
     height: 280px;
+    box-shadow: inset 0 0 0 2000px #1b02bda8;
+    width: 100%;
+    height: 100%;
 }
 
 .camel {
@@ -119,20 +157,14 @@
     height: 280px;
 }
 
-.detailsBanner {
-    height: 450px;
-    background-image: url(../src/assets/camel.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
+/* search */
 .searchBar {
     width: 680px;
     height: 60px;
     margin-top: -30px;
     background-color: #ffff;
     border-radius: 10px;
+    z-index: 200;
 }
 
 .searchSection {
@@ -178,6 +210,7 @@
     font-size: 23px;
 }
 
+<<<<<<< HEAD
 .detailsBannerText {
     margin-top: 180px;
 }
@@ -194,4 +227,9 @@
 .featured-btn:hover{
     background: #aeacaf;
     color: #1C02BD ;
+=======
+/* footer */
+.footerSocialIcon {
+    font-size: 20px;
+>>>>>>> f74f91ad70d5400be77d84770676210c7a37d2a5
 }

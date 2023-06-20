@@ -25,4 +25,17 @@
     .shopNow {
         width: 100%;
     }
+
+    .sliderImg {
+        height: 300px;
+    }
+
+    .sliderText {
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+
+    .sliderSubTitle {
+        width: 100%;
+    }
 }
