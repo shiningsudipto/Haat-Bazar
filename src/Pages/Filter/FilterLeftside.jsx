@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { BiSearch,BiChevronDown } from "react-icons/bi";
 import './Filter.css'
 import { Link } from 'react-router-dom';
-import {  Form } from 'react-bootstrap';
+import {  Form} from 'react-bootstrap';
+import VolumeSlider from '../../Components/RangeSlider';
+
 
 
 
@@ -22,6 +24,8 @@ const FilterLeftside = () => {
         .then(res => res.json())
         .then(category => setCategories(category))
     },[])
+    
+    
 
     return (
         <section className='filter-leftside'>
@@ -50,6 +54,8 @@ const FilterLeftside = () => {
              {/* Weight Range  */}
             <div>
              <h6> Weight  Range </h6>
+             <VolumeSlider/>
+              <h6> Weight: <span className='text-secondary'>100kg - 120kg  </span></h6>
             </div>
 
              {/* Gender   */}
@@ -70,7 +76,7 @@ const FilterLeftside = () => {
             </div>
             </div>
             </div>
-
+            
             {/* Clear filter button  */}
             <div className='clear-filter mt-3 mb-5'>
               <button className='btn-style' type='reset'> Clear  Filter   </button>
