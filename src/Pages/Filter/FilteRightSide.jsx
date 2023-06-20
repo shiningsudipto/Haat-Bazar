@@ -2,14 +2,15 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
 import { FaFilter } from "react-icons/fa";
+import FilterPagination from "../../Components/FilterPagination";
 
 
 const FilteRightSide = () => {
 return (
 <div >
     {/* Filter top nav option */}
-    <section className="d-lg-flex d-xl-flex d-xxl-flex  d-none" style={{display:'flex', justifyContent:'space-between'}}>
-    <div className="filter-topnav">
+    <section className="d-lg-flex  d-xl-flex d-xxl-flex d-none m-0 border-bottom justify-content-between " style={{height:'8vh'}} >
+    <div className="filter-topnav ">
         <ul className="p-0">
             <li>
                 <NavLink className={"ms-2 px-5 "} to={"/filter/all"}> {" "}
@@ -44,6 +45,9 @@ return (
      </section>
 
     <Outlet />
+     <div className="d-flex justify-content-center mt-4">
+     <FilterPagination/>
+     </div>
 </div>
 );
 };

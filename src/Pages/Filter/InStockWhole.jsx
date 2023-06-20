@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import CardSection from './CardSection';
 
 const InStockWhole = () => {
+    const [products,setProducts] = useState([])
+    useEffect(()=>  {
+        fetch('/product.json')
+        .then(res =>res.json())
+        .then(data =>  setProducts(data))
+    },[])
     return (
         <div>
-            <h3> InStock Whole </h3>
+            <CardSection data={products}/>
         </div>
     );
 };

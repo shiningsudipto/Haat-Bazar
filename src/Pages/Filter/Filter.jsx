@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import FilterLeftside from './FilterLeftside';
 import './Filter.css'
 import FilteRightSide from './FilteRightSide';
-import PlaceNameSideNav from '../../Components/PlaceNameSideNav';
+import PlaceNameSideNav from '../../Components/DrawerSideNav';
 import Button from 'react-bootstrap/Button';
 
 
@@ -21,7 +21,7 @@ const Filter = () => {
        <Container>
           <Row>
             {/* Filter section Left side  */}
-             <Col lg={3} >
+             <Col lg={3} xl={3} xxl={3} className='d-lg-block d-xxl-block d-xl-block d-none' >
                 <FilterLeftside/>
              </Col>
              {/* Data show right side  */}

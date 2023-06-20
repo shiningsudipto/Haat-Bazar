@@ -12,7 +12,7 @@ const CardSection = ({data}) => {
     // }
     return (
         <div>
-           <div className="container">
+           <div className="container mt-2">
             <div>
               
             </div>

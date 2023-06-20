@@ -26,7 +26,7 @@ const SingleAdd = ({ myAdd }) => {
                     <h4 className="fw-bolder">{price}</h4>
                 </div>
                 <div>
-                    <Link to={`/details/${id}`} className="btn text-white viewMore w-100 fw-bold text-uppercase" style={{ backgroundColor: "#1C02BD" }}>view details</Link>
+                    <Link to={`/details/${id}`} className="btn text-white viewMore w-100 fw-fw-semibold text-uppercase" style={{ backgroundColor: "#1C02BD" }}>view details</Link>
                 </div>
             </Card.Body>
         </Card>
