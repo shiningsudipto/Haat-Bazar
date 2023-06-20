@@ -1,0 +1,37 @@
+[
+    {
+        "placeName": "Dhaka",
+        "animalNumber": 30
+    },
+    {
+        "placeName": "Dhaka City",
+        "animalNumber": 80
+    },
+    {
+        "placeName": "Uttora",
+        "animalNumber": 130
+    },
+    {
+        "placeName": "Dhanmondi",
+        "animalNumber": 60
+    },
+    {
+        "placeName": "Khulna",
+        "animalNumber": 50
+    },
+    {
+        "placeName": "Sylhet",
+        "animalNumber": 70
+    },
+    {
+        "placeName": "Borishal",
+        "animalNumber": 60
+    },
+    {
+        "placeName": " Chittagong",
+        "animalNumber": 90
+    }
+    
+   
+    
+]

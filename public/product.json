@@ -4,62 +4,62 @@
         "weight": "500 kg",
         "price": "$1500",
         "type": "featured",
-        "image": "https://example.com/camel.jpg"
+        "image": "https://images.pexels.com/photos/6408363/pexels-photo-6408363.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "cow",
         "weight": "800 kg",
         "price": "$2000",
         "type": "featured",
-        "image": "https://example.com/cow.jpg"
+        "image": "https://images.pexels.com/photos/755025/pexels-photo-755025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "name": "goat",
         "weight": "50 kg",
         "price": "$500",
         "type": "featured",
-        "image": "https://example.com/goat.jpg"
+        "image": "https://images.pexels.com/photos/37910/billy-goat-goat-goatee-animal-37910.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "sheep",
         "weight": "60 kg",
         "price": "$600",
         "type": "featured",
-        "image": "https://example.com/sheep.jpg"
+        "image": "https://images.pexels.com/photos/977239/pexels-photo-977239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "name": "horse",
         "weight": "900 kg",
         "price": "$2500",
         "type": "featured",
-        "image": "https://example.com/horse.jpg"
+        "image": "https://images.pexels.com/photos/5733281/pexels-photo-5733281.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "pig",
         "weight": "200 kg",
         "price": "$800",
         "type": "featured",
-        "image": "https://example.com/pig.jpg"
+        "image": "https://images.pexels.com/photos/110820/pexels-photo-110820.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "rabbit",
         "weight": "2 kg",
         "price": "$50",
         "type": "featured",
-        "image": "https://example.com/rabbit.jpg"
+        "image": "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "chicken",
         "weight": "1 kg",
         "price": "$10",
         "type": "featured",
-        "image": "https://example.com/chicken.jpg"
+        "image": "https://images.pexels.com/photos/1405930/pexels-photo-1405930.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "duck",
         "weight": "2.5 kg",
         "price": "$20",
         "type": "featured",
-        "image": "https://example.com/duck.jpg"
+        "image": "https://images.pexels.com/photos/162059/duck-water-bird-water-mirroring-162059.jpeg?auto=compress&cs=tinysrgb&w=600https://example.com/duck.jpg"
     }
 ]

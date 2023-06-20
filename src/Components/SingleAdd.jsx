@@ -19,7 +19,7 @@ const SingleAdd = ({ myAdd }) => {
             <Card.Body className="p-2">
                 <div className="d-flex justify-content-between">
                     <Card.Title className="fw-bold fs-4 text-uppercase">{name}</Card.Title>
-                    <button className="btn btn-secondary">Featured</button>
+                    <button  className=" featured-btn ">Featured</button>
                 </div>
                 <div className="d-flex justify-content-between my-2">
                     <h5>{weight}</h5>

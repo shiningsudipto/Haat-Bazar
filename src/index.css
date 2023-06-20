@@ -181,3 +181,17 @@
 .detailsBannerText {
     margin-top: 180px;
 }
+
+
+/* Featured btn style   */
+.featured-btn{
+    background-color:  #E3DEFF;
+    color: #1C02BD;
+    border: none;
+    border-radius: 4px;
+
+}
+.featured-btn:hover{
+    background: #aeacaf;
+    color: #1C02BD ;
+}
