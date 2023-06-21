@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import imgCamel from '../../assets/detailsCamel.png'
 import useMyAds from "../../Hooks/useMyAds";
-import { FaRegHeart, FaFlag, FaShareAlt } from "react-icons/fa";
+import { FaRegHeart, FaFlag, FaShareAlt, FaAngleRight } from "react-icons/fa";
 import { BsFillXCircleFill } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import addImage from '../../assets/add1.jpg'
@@ -11,9 +11,18 @@ import addImage2 from '../../assets/add2.jpg'
 import SingleAdd from "../../Components/SingleAdd";
 import { Col, Row } from "react-bootstrap";
 import SectionTitle from "../../Components/SectionTitle";
-import Card from 'react-bootstrap/Card';
 import Slider from "../Shared/Slider";
+
+import avatar from '../../assets/avatar.png'
+import callIcon from '../../assets/call.png'
+import chatIcon from '../../assets/chat.png'
+import { useState } from "react";
+
 const Details = () => {
+
+    const [showPhoneNumber, setShowPhoneNumber] = useState(false);
+    const [phoneNumber, setPhoneNumber] = useState('');
+
     const id = useParams();
     const { data, loading } = useMyAds();
     if (loading) {
@@ -26,6 +35,13 @@ const Details = () => {
     console.log(matchingData);
 
     const { image, description, price } = matchingData;
+
+    const handleClick = () => {
+        if (!showPhoneNumber) {
+            setPhoneNumber('123-456-7890'); // Replace with your desired phone number
+        }
+        setShowPhoneNumber(!showPhoneNumber);
+    };
 
     return (
         <div>
@@ -48,18 +64,18 @@ const Details = () => {
                     <div className="col-md-8 card border rounded-3 p-3">
                         <Carousel>
                             <div>
+                                <img src={imgCamel} />
+                            </div>
+                            <div>
+                                <img src={imgCamel} />
+                            </div>
+                            <div>
                                 <img src={image} />
-                            </div>
-                            <div>
-                                <img src={imgCamel} />
-                            </div>
-                            <div>
-                                <img src={imgCamel} />
                             </div>
                         </Carousel>
                         <div className="mb-4">
                             <h3>Description</h3>
-                            <p>{description}</p>
+                            <p className="lh-base">{description}</p>
                             <div className="d-flex justify-content-between">
                                 <div><h3>PRICE: {price}</h3></div>
                                 <div><h3>WEIGHT: 180KG</h3></div>
@@ -72,7 +88,24 @@ const Details = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <img src={addImage} className="img-fluid shadow rounded-3" alt="" />
+                        <div className="rounded-3 shadow p-4">
+                            <div className="d-flex w-100">
+                                <img src={avatar} className="addAvatar" alt="" />
+                                <div className="addContent">
+                                    <h4>Name</h4>
+                                    <p>Member Since 14 May, 2022</p>
+                                    <a href="#">View Profile <FaAngleRight /></a>
+                                    <div className="addButtons mt-5 w-100">
+                                        <button className="callBtn w-100" onClick={handleClick}>
+                                            <img src={callIcon} alt="" />
+                                            {showPhoneNumber ? phoneNumber : 'SHOW PHONE NUMBER'}
+                                        </button>
+                                        <br />
+                                        <button className="chatBtn"><img src={chatIcon} alt="" />CHAT NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="d-flex align-items-center align-content-center bg-white shadow-lg my-4 z-3 rounded-3">
                             <h4 className="display-5"><IoLocationOutline /></h4>
                             <div className="ms-5 mt-2">

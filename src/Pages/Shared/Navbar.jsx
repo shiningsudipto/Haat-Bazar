@@ -2,7 +2,7 @@ import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavMenu = () => {
     return (
@@ -16,9 +16,9 @@ const NavMenu = () => {
 
                         </Nav>
                         <Nav>
-                            <Nav.Link href='' >Home</Nav.Link>
-                            <Nav.Link href='/filter' > Find </Nav.Link>
-                            <Nav.Link href='' >Pricing</Nav.Link>
+                            <NavLink className={"navMenuLink"} to='/' > Home </NavLink>
+                            <NavLink className={"navMenuLink"} to='/filter/all' > Find </NavLink>
+                            <NavLink className={"navMenuLink"} to='/' > Pricing </NavLink>
                             <Button style={{ backgroundColor: '#1C02BD' }} className='text-white fw-medium'>CONTACT US</Button>
                         </Nav>
                     </Navbar.Collapse>

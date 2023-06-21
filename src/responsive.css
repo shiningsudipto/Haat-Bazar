@@ -1,5 +1,8 @@
 /* Mobile */
 @media all and (max-width: 480px) {
+  .sliderText h2{
+font-size: 26px;
+  }
     .bannerImage1 {
         width: 280px;
     }
@@ -31,11 +34,26 @@
     }
 
     .sliderText {
-        padding-top: 30px;
-        padding-left: 100px;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .sliderSubTitle {
         width: 100%;
+        line-height: 18px;
+    }
+    .copyrightText{
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 992px) {
+    .footerBottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footerLinks{
+        justify-content: center;
     }
 }

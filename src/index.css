@@ -1,3 +1,6 @@
+p{
+    line-height: 20px !important;
+}
 .btn {
     background-color: #1C02BD;
     color: #ffff;
@@ -34,7 +37,7 @@
 }
 
 .availableBtn {
-    height: 35px;
+    height: 20px;
     color: #13A710;
 }
 
@@ -82,7 +85,7 @@
 }
 
 .overlay {
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.404);
     width: 100%;
     height: 100%;
     z-index: 2000;
@@ -96,6 +99,7 @@
 
 .sliderSubTitle {
     width: 50%;
+line-height: 22px;
 }
 
 /* My Ads */
@@ -123,6 +127,9 @@
     box-shadow: inset 0 0 0 2000px #1b02bda8;
     width: 100%;
     height: 100%;
+}
+.grass p{
+    line-height: 20px;
 }
 
 .camel {
@@ -210,26 +217,57 @@
     font-size: 23px;
 }
 
-<<<<<<< HEAD
-.detailsBannerText {
-    margin-top: 180px;
-}
-
-
-/* Featured btn style   */
-.featured-btn{
-    background-color:  #E3DEFF;
-    color: #1C02BD;
-    border: none;
-    border-radius: 4px;
-
-}
-.featured-btn:hover{
-    background: #aeacaf;
-    color: #1C02BD ;
-=======
 /* footer */
 .footerSocialIcon {
     font-size: 20px;
->>>>>>> f74f91ad70d5400be77d84770676210c7a37d2a5
+}
+
+.navMenuLink {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.featured-btn {
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Add */
+.addAvatar{
+    height: 65px;
+    margin-right: 25px;
+}
+.addContent h4{
+color: #1C02BD;
+}
+.addContent a{
+    color: #1C02BD;
+    text-decoration: none;
+    font-weight: 600;
+}
+.addContent p{
+    color: rgb(63, 63, 63);
+}
+.callBtn{
+    background-color: #1C02BD;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.chatBtn{
+    margin-top: 10px;
+    color: #1C02BD;
+    border: 2px solid #1C02BD;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px; 
+    height: 50px;
+background-color: #fff;
 }

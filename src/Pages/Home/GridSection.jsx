@@ -3,7 +3,7 @@ const GridSection = () => {
     return (
         <div className="container my-5 text-white">
             <div className="row g-4">
-                <div className="col-md-3 col-12">
+                <div className="col-lg-3 col-md-12 col-12">
                     <div className="p-5 grass">
                         <h3>MY ADS</h3>
                         <div></div>
@@ -11,7 +11,7 @@ const GridSection = () => {
                         <button className="viewMore">view more</button>
                     </div>
                 </div>
-                <div className="col-md-5 col-12 ">
+                <div className="col-lg-5 col-md-12 col-12 ">
                     <div className="p-5 camel">
                         <h3>$50.99</h3>
                         <div>
@@ -21,7 +21,7 @@ const GridSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-12">
+                <div className="col-lg-4 col-md-12 col-12">
                     <div className="p-5 goat">
                         <h3>$50.99</h3>
                         <div>

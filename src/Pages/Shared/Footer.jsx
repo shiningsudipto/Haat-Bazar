@@ -46,9 +46,9 @@ const Footer = () => {
                 </div>
                 <div className="d-flex justify-content-between footerBottom">
                     <div className="">
-                        <p>Copyright © 2023 Website.All rights reserved.</p>
+                        <p className="lh-base copyrightText">Copyright © 2023 Website.All rights reserved.</p>
                     </div>
-                    <div className="d-flex flex-wrap">
+                    <div className="d-flex flex-wrap footerLinks">
                         <Link className="mx-1 text-decoration-none text-white">Privacy Statement</Link>
                         <Link className="mx-1 text-decoration-none text-white">Terms & Conditions</Link>
                         <Link className="mx-1 text-decoration-none text-white">Accessibility Notice</Link>
